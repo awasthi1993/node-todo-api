@@ -6,7 +6,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
     return console.log('Unable to connect to MongoDB server');
   }
   console.log('Connected to MongoDB server');
-
+// this db.collection not work i do manually using studio 3t
   // db.collection('Todos').insertOne({
   //   text: 'Something to do',
   //   completed: false
